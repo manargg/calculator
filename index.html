@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculator </title>
+    <title>calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="calculator">
-        <input id="display" readonly>
+        <input id="display" readonly placeholder="0">
         <!--KEYS CONTAINER-->
         <div id="keys">
             <button class="operattor-btn" onclick="appendToDisplay('+')">+</button>
@@ -30,11 +30,8 @@
 
             <button onclick="calculate()">=</button>
             <button class="operattor-btn" onclick="clearDisplay()">C</button>
-
         </div>
-
     </div>
-
     <script src="main.js"></script>
 </body>
 </html>

@@ -26,6 +26,11 @@ body{
     outline: none;
     color: white;
 }
+#display::placeholder{
+    color: white;
+    opacity: .5;
+}
+
 #keys{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
